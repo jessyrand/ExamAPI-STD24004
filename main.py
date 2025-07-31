@@ -13,6 +13,7 @@ class ObjectModel(BaseModel):
     author: str
     title: str
     content: str
+    creation_datetime: datetime
 
 objects_list: List[ObjectModel] = []
 
